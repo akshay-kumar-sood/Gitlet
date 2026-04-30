@@ -7,6 +7,22 @@ It provides core version control features like staging files, committing snapsho
 
 ---
 
+## 📌 Features
+
+| Command    | Description                 |
+| ---------- | --------------------------- |
+| `init`     | Initialize repository       |
+| `add`      | Stage files                 |
+| `commit`   | Create snapshot             |
+| `log`      | Show commit history         |
+| `branch`   | Create new branch           |
+| `checkout` | Switch branch               |
+| `merge`    | Merge branches              |
+| `ai`       | AI-based command suggestion |
+
+---
+
+
 ## ⚙️ Commands to Run
 
 ### Compile
