@@ -1,15 +1,15 @@
 🚀 Gitlet – Mini Version Control System
 
 Gitlet is a simplified version of Git implemented in Java.
-It supports core version control features like initializing a repository, staging files, committing snapshots, branching, and checkout.
+It replicates core version control features like initializing a repository, staging files, committing snapshots, branching, and checkout.
 
 ---
 
 📌 Features
 
-- Initialize a repository ("init")
+- Initialize repository ("init")
 - Stage files ("add")
-- Commit file snapshots ("commit")
+- Commit snapshots ("commit")
 - View commit history ("log")
 - Create branches ("branch")
 - Switch branches ("checkout")
@@ -29,14 +29,15 @@ Gitlet/
 │   ├── Utils.java         # File handling utilities
 │   └── AIService.java     # Optional AI integration
 │
-├── bin/                  # Compiled class files
-├── .gitlet/              # Internal storage (auto-created)
-│   ├── commits/          # Stores commit objects
-│   ├── branches/         # Branch pointers
-│   ├── staging/          # Staged files
-│   └── HEAD              # Current branch reference
+├── bin/                   # Compiled class files
 │
-├── test.txt              # Sample file
+├── .gitlet/               # Internal storage (auto-created)
+│   ├── commits/           # Stores commit objects
+│   ├── branches/          # Branch pointers
+│   ├── staging/           # Staged files
+│   └── HEAD               # Current branch reference
+│
+├── test.txt               # Sample file
 └── README.md
 
 ---
@@ -59,37 +60,25 @@ java -cp bin Main <command>
 
 java -cp bin Main init
 
----
-
 🔹 Add file to staging
 
 java -cp bin Main add <filename>
-
----
 
 🔹 Commit changes
 
 java -cp bin Main commit "commit message"
 
----
-
 🔹 View commit history
 
 java -cp bin Main log
-
----
 
 🔹 Create a new branch
 
 java -cp bin Main branch <branch-name>
 
----
-
 🔹 Switch branch
 
 java -cp bin Main checkout <branch-name>
-
----
 
 🔹 Merge branches (basic)
 
@@ -100,7 +89,7 @@ java -cp bin Main merge <branch-name>
 🧠 How It Works (Architecture)
 
 - "HEAD" → stores current branch name
-- "branches/" → stores latest commit ID per branch
+- "branches/" → maps branch → latest commit ID
 - "commits/" → stores serialized commit objects
 - Each commit contains:
   - message
@@ -114,7 +103,7 @@ java -cp bin Main merge <branch-name>
 
 - No remote repository support (push/pull)
 - No advanced merge conflict resolution
-- CLI-based only (no UI)
+- CLI-based only (no GUI)
 - Limited error handling
 
 ---
@@ -122,15 +111,15 @@ java -cp bin Main merge <branch-name>
 💡 Future Improvements
 
 - Add remote repository support
-- Implement conflict resolution in merge
+- Implement merge conflict resolution
 - Add diff visualization
-- Build a UI interface
+- Build a graphical UI
 
 ---
 
 👨‍💻 Author
 
-- Akshay Sood
+Akshay Sood
 
 ---
 
