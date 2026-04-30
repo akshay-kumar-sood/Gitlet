@@ -21,23 +21,23 @@ It replicates core version control features like initializing a repository, stag
 🗂️ Project Structure
 
 Gitlet/
-│
+
 ├── src/
-│   ├── Main.java          # Entry point (CLI handler)
-│   ├── Repository.java    # Core logic (commands implementation)
-│   ├── Commit.java        # Commit object structure
-│   ├── Utils.java         # File handling utilities
-│   └── AIService.java     # Optional AI integration
-│
-├── bin/                   # Compiled class files
-│
-├── .gitlet/               # Internal storage (auto-created)
-│   ├── commits/           # Stores commit objects
-│   ├── branches/          # Branch pointers
-│   ├── staging/           # Staged files
-│   └── HEAD               # Current branch reference
-│
-├── test.txt               # Sample file
+│   ├── Main.java          - Entry point (CLI handler)
+│   ├── Repository.java    - Core logic (commands implementation)
+│   ├── Commit.java        - Commit object structure
+│   ├── Utils.java         - File handling utilities
+│   └── AIService.java     - Optional AI integration
+
+├── bin/                   - Compiled class files
+
+├── .gitlet/               - Internal storage (auto-created)
+│   ├── commits/           - Stores commit objects
+│   ├── branches/          - Branch pointers
+│   ├── staging/           - Staged files
+│   └── HEAD               - Current branch reference
+
+├── test.txt               - Sample file
 └── README.md
 
 ---
@@ -125,4 +125,4 @@ Akshay Sood
 
 ⭐ Note
 
-This project is built for learning purposes to understand how Git works internally
+This project is built for learning purposes to understand how Git works internally.
