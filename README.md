@@ -35,6 +35,12 @@ java -cp bin Main merge <name>
 
 ---
 
+## 🧠 Low-Level Design (LLD)
+
+👉 [View Architecture Diagram](./LLD.png)
+
+---
+
 ## 👨‍💻 Author
 
 Akshay Sood
