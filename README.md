@@ -125,4 +125,4 @@ Akshay Sood
 
 ⭐ Note
 
-This project is built for learning purposes to understand how Git works internally.
+This project is built for learning purposes to understand how Git works internally
