@@ -47,13 +47,17 @@ java -cp bin Main merge <name>
 
 ## 🧠 High-Level Design (HLD)
 
-👉 [View Architecture Diagram](./HLD.png)
+<p align="center">
+  <img src="HLD.png" width="800"/>
+</p>
 
 ---
 
 ## 🧠 Low-Level Design (LLD)
 
-👉 [View Architecture Diagram](./LLD.png)
+<p align="center">
+  <img src="LLD.png" width="800"/>
+</p>
 
 ---
 
